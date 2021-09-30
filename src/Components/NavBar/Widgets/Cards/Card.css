@@ -1,0 +1,101 @@
+.card-body {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+
+    border-radius: 5px;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    background-color: #EBEBEB;
+
+    transition: all .2s ease-in-out; 
+}
+
+.card-body:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 5px 5px rgba(0 0 0 / 0.3) , -3px 5px 5px rgba(0 0 0 / 0.3);
+}
+
+
+.card-body .card-texts {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+
+.card-body .card-btn-section {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.card-body .card-texts .card-title {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: left;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+
+    color: #878787;
+}
+
+.card-body .card-texts .card-description {
+    font-size: 0.8rem;
+    text-align: left;
+
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+
+    color: #878787;
+}
+
+.card-body .card-btn-section {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.card-body .link-btn {
+    background-color: #00CDA8;
+    color: white;
+
+    border-radius: 7px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1px;
+    padding-bottom: 3px;
+}
+
+.card-body .link-btn:hover {
+    background-color: #00a788;
+    cursor: pointer;
+}
+
+.card-body .source-code-link-btn {
+    background-color: #A5A5A5;
+    color: white;
+
+    border-radius: 5px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1px;
+    padding-bottom: 3px;
+}
+
+.card-body .source-code-link-btn:hover {
+    background-color: #818181;
+    cursor: pointer;
+}

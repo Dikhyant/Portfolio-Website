@@ -1,0 +1,25 @@
+.home-page {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.home-page .image {
+    flex: 1;
+}
+
+.home-page .image img {
+    width: 40rem;
+    height: 40rem;
+}
+
+.home-page .programming-languages {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: 3rem;
+
+    padding-bottom: 1rem;
+}
