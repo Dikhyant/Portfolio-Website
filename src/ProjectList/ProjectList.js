@@ -62,6 +62,13 @@ const ProjectList = [
         projectLink : "https://zealous-perlman-4ff849.netlify.app/" ,
         sourceCodeLink : "https://github.com/Dikhyant/Mark-Twelve"
     },
+    {
+        id : 11 ,
+        title : "Mark Fourteen : Stocks" ,
+        description : "Calculate profit or loss made in stocks" , 
+        projectLink : "https://vibrant-rosalind-df9df1.netlify.app/" ,
+        sourceCodeLink : "https://github.com/Dikhyant/Mark-Fourteen"
+    },
 ]
 
 export default ProjectList;
