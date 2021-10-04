@@ -1,14 +1,15 @@
-import "./Card.css"
+import "./BlogCard.css"
 
-const Card = (props) => {
+const BlogCard = (props) => {
     return (
-        <div className="card-body"  >
+        <div className="card-body" >
             <div className="card-texts" >
                 <div className="card-title" >{props.title}</div>
                 <div className="card-description" >{props.description}</div>
             </div>
 
-            <div className="card-btn-section">
+
+            {/* <div className="card-btn-section">
                 <div style={{flex: 3}} ></div>
 
                 <div style={{display: "flex", flex: 0.7, flexDirection: "row"}}>
@@ -22,9 +23,9 @@ const Card = (props) => {
                 </div>
 
                 <div style={{flex: 1.2}} ></div>
-            </div>
+            </div> */}
         </div>
     )
 }
 
-export default Card;
+export default BlogCard;

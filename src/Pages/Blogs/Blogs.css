@@ -1,0 +1,13 @@
+.blogs {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+
+    min-height: 30rem;
+}
+
+.blogs .content {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}

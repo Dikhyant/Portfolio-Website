@@ -1,0 +1,25 @@
+.blog-page{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.blog-page .content{
+    flex: 2;
+    white-space: pre-wrap;
+}
+
+.blog-page .blog-title-section{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.blog-page .blog-title-section .blog-title{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}

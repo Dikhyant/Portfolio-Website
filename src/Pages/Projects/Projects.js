@@ -8,7 +8,7 @@ const Projects = (props) => {
 
     const Projects = ProjectList.map( (project)=>{
         return (
-            <Card title={project.title} 
+            <Card key={project.id} title={project.title} 
             description={project.description}
             projectLink={project.projectLink}
             sourceCodeLink={project.sourceCodeLink} />
